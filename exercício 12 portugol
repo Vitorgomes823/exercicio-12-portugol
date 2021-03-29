@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro contador , soma = 0  ,novonumero
+
+		para (contador = 1; contador <= 10 ; contador ++)
+		{
+			escreva("Digite um valor : ")
+			leia(novonumero)
+			limpa()
+			soma = soma + novonumero
+		}	
+		
+	
+		
+		escreva("a soma desses numeros é : ",soma)
+		
+	
+	}
+
+	
+}
